@@ -1,4 +1,6 @@
 #include <bits/stdc++.h> 
+//when we can convert a graph into a tree such that it contains n vertices and n-1 edges then it is called  st.
+// tree has no cycle
 vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pair<int, int>, int>> &g)
 {
     // Write your code here.

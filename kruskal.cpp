@@ -15,7 +15,7 @@ int findParent(vector<int> & parent, int node){
     if(parent[node]==node){
         return node;
     }
-    return parent[node]=findParent(parent,parent[node]);
+    return parent[node]=findParent(parent,parent[node]);    //path compression
 }
 
 void unionSet(int u, int v, vector<int> &parent, vector<int>& rank){
